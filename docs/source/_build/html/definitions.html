@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Definitions &mdash; GLYN CMS Manual 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> GLYN CMS Manual
+          </a>
+              <div class="version">
+                0.1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GLYN CMS Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Definitions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/definitions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="definitions">
+<h1>Definitions<a class="headerlink" href="#definitions" title="Permalink to this headline"></a></h1>
+<p>There are several terms and concepts that the GLYN CMS relies on. These terms are presented here.</p>
+<dl class="simple">
+<dt>CMS:</dt><dd><p>Abbreviation for “Content Management System”. A CMS is software that helps manage the creation
+and modification of digital content, such as articles, images, videos, and documents.</p>
+</dd>
+<dt>Django:</dt><dd><p>Django is a free and open-source software library written in Python that is used to create web applications.</p>
+</dd>
+<dt>Wagtail:</dt><dd><p>Wagtail is a free and open-source CMS for Django.</p>
+</dd>
+<dt>GLYN Wagtail CMS:</dt><dd><p>GLYN uses Wagtail, Django, and plenty of custom code to deploy a website that can scale from feature phones all the way to desktops.
+Throughout this documentation, this software solution will be referred to as “the GLYN Wagtail CMS”, or more simply as “the CMS”.</p>
+</dd>
+<dt>Dashboard:</dt><dd><p>The initial view immediately after logging into the CMS. Displays the Pages, Images, Documents, and Media files currently loaded on the site,
+as well as your recently edited Pages and any Pages that are awaiting review.</p>
+</dd>
+<dt>Page:</dt><dd><p>In the GLYN Wagtail CMS, the Page is the simplest form of presenting content. There are different variations of the Page.
+Each has different use cases. See “Page Types” below for a list of different Page variations.</p>
+</dd>
+<dt>Page Types:</dt><dd><p>Pages can be any one of the following:
+1. Homepage
+2. Standard page
+3. Organisation page
+4. Blog page
+5. Event page
+6. Resource page</p>
+</dd>
+<dt>Homepage:</dt><dd><p>This is the content on the landing page located at <a class="reference external" href="http://greatlakesyouth.africa">http://greatlakesyouth.africa</a>. All other pages on the website are descendants of this page.
+Since the website is in multiple languages, there are different homepages (for english, french and swahili) each with its own tree of child pages.</p>
+</dd>
+<dt>Standard page:</dt><dd><p>A standard page is used to create general content pages for example FAQs. They have no structure and all their formatting can be done in the editor.
+Examples include: The Privacy Policy page is an example of a standard page.</p>
+</dd>
+<dt>Organisation page:</dt><dd><p>Organisation pages are used to create youth initiatives. All information on the organisation can be added through this interface.
+All organisations will be found on the <strong>Organisation Index page: Youth initiatives</strong></p>
+</dd>
+<dt>Blog page:</dt><dd><p>Blog pages are used to create articles usually known as blogs. They primarily consist of a title, excerpt, editor, featured image, video and galleries.
+Blog pages are a child pages under the <strong>Blog index page: Newsroom</strong></p>
+</dd>
+<dt>Event page:</dt><dd><p>Event pages are necessary to create upcoming events or even add events already passed and other relevant information. These appear on the <strong>Event Index page: Events</strong></p>
+</dd>
+<dt>Resource page:</dt><dd><p>Resource pages are essentially documents. Documents for public use can be uploaded and properly tagged. These will show up on the <strong>Resource Index (Library) page</strong></p>
+</dd>
+</dl>
+</section>
+<section id="index-pages">
+<h1>Index Pages<a class="headerlink" href="#index-pages" title="Permalink to this headline"></a></h1>
+<p>We have mentioned index pages a lot in the Definitions section. Index Pages are special types of Pages that can only exist as the direct child of a Homepage. Index Pages are similar to folders on your operating system, but can only contain one type of Child Page. For example, all blogs will go into a Blog Index Page. Similarly, all events will go into a Events Index Page. All organisations go into a Organisation Index Page. Sites are typically organized as Homepage -&gt; Index Page -&gt; Pages</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Matchstick 256 Studio Limited.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
