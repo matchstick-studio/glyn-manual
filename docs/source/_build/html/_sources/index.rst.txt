@@ -19,8 +19,3 @@ This CMS Manual will explain how to:
 -   upload, edit and include images and documents;
 -   add and moderate comments on articles;
 -   create and edit youth initiatives and their information;
-
-.. toctree::
-
-   usage
-   api

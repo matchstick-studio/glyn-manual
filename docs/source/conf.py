@@ -1,13 +1,19 @@
 # Configuration file for the Sphinx documentation builder.
+from datetime import datetime
+
+now = datetime.now()
 
 # -- Project information
 
 project = 'GLYN CMS Manual'
-copyright = '2021, Matchstick 256 Studio Limited'
+copyright = '{}, Matchstick 256 Studio Limited'.format(now.year)
 author = 'Matchstick 256 Studio'
 
-release = '0.1'
-version = '0.1.0'
+version = "{}.{}.{}".format(*now.isocalendar())
+# The full version, including alpha/beta/rc tags.
+release = "{}.{}.{}".format(*now.isocalendar())
+
+exclude_patterns = ["_build"]
 
 # -- General configuration
 
