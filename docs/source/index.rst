@@ -7,9 +7,6 @@ The **GLYN CMS Manual** is a platform built on Wagtail with addditional function
 
    This project is under active development. The manual is entirely in the English language.
 
-Contents
---------
-
 This CMS Manual will explain how to:
 -   navigate the main user interface of Wagtail;
 -   add multi-languages;
@@ -19,3 +16,12 @@ This CMS Manual will explain how to:
 -   upload, edit and include images and documents;
 -   add and moderate comments on articles;
 -   create and edit youth initiatives and their information;
+
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   definitions
+   signing-into-the-cms
