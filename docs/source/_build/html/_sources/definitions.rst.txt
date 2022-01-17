@@ -58,7 +58,7 @@ Resource page:
     Resource pages are essentially documents. Documents for public use can be uploaded and properly tagged. These will show up on the **Resource Index (Library) page**
 
 Index Pages
-===================================
+-----------------------
 
 We have mentioned index pages a lot in the Definitions section. Index Pages are special types of Pages that can only exist as the direct child of a Homepage. 
 Index Pages are similar to folders on your operating system, but can only contain one type of Child Page. For example, all blogs will go into a Blog Index Page. 

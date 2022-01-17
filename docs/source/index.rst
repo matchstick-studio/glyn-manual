@@ -25,3 +25,4 @@ Contents
 
    definitions
    signing-into-the-cms
+   navigating-the-cms
