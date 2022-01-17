@@ -5,13 +5,12 @@ The **GLYN CMS Manual** is a platform built on Wagtail with addditional function
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. The manual is entirely in the English language.
 
 Contents
 --------
 
 This CMS Manual will explain how to:
-
 -   navigate the main user interface of Wagtail;
 -   add multi-languages;
 -   create different kinds of pages in different languages;
