@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'GLYN CMS Manual'
+copyright = '2021, Matchstick 256 Studio Limited'
+author = 'Matchstick 256 Studio'
 
 release = '0.1'
 version = '0.1.0'
