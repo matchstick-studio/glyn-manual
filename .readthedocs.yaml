@@ -9,7 +9,7 @@ python:
   install:
     - requirements: docs/requirements.txt
     - method: pip
-      path: docs/
+      path: .
 
 sphinx:
   fail_on_warning: true
