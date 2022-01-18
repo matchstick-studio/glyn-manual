@@ -29,3 +29,5 @@ Contents
    definitions
    signing-into-the-cms
    navigating-the-cms
+   creating-content
+   handbook-app-course-content
