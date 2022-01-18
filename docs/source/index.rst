@@ -8,14 +8,14 @@ The **GLYN CMS** is a platform built on Wagtail with addditional functionality p
    This project is under active development. The manual is entirely in the English language.
 
 This CMS Manual will explain how to:
-* navigate the main user interface of Wagtail;
-* add multi-languages;
-* create different kinds of pages in different languages;
-* modify, save, publish and unpublish pages;
-* set up new users and assign them specific roles to create a publishing workflow;
-* upload, edit and include images and documents;
-* add and moderate comments on articles;
-* create and edit youth initiatives and their information;
+   * navigate the main user interface of Wagtail;
+   * add multi-languages;
+   * create different kinds of pages in different languages;
+   * modify, save, publish and unpublish pages;
+   * set up new users and assign them specific roles to create a publishing workflow;
+   * upload, edit and include images and documents;
+   * add and moderate comments on articles;
+   * create and edit youth initiatives and their information;
 
 The more times you use the CMS to upload content, the easier this gets. The manual is for reference only. 
 Most of the learning will happen only by actually using the CMS to add and edit content.
