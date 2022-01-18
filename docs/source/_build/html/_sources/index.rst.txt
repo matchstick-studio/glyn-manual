@@ -17,6 +17,9 @@ This CMS Manual will explain how to:
 -   add and moderate comments on articles;
 -   create and edit youth initiatives and their information;
 
+The more times you use the CMS to upload content, the easier this gets. The manual is for reference only. 
+Most of the learning will happen only by actually using the CMS to add and edit content.
+
 Contents
 --------
 
@@ -25,3 +28,4 @@ Contents
 
    definitions
    signing-into-the-cms
+   navigating-the-cms

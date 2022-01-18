@@ -97,12 +97,15 @@ Just below the title of the Page, there are several toolbar buttons, each with a
 - **Edit:** Edit properties of the parent page (in the image above, the “Newsroom” page)
 - **View live:** View the live version of the site, as a user would see
 - **Add child page:** In this particular case, since we are in the Newsroom Page, this will allow you to add a new blog.
-- **More**
-  - Move: This will Change the parent page of the currently selected Page (i.e: Newsroom). **DO NOT TOUCH THIS**
-  - Copy: This will duplicate the current page. **DO NOT TOUCH THIS**
-  - Delete: Complete delete the current page and all of its child pages(in this case: blogs). **DO NOT TOUCH THIS**
-  - Unpublish: This option unpublishes the Page and disallows users from accessing it on the live site, optionally disallowing access to child pages (in this case: blogs). Note: if access to child pages is not removed, they will become orphaned meaning that they can be accessed by users, but only through direct URL.
-  - History: This shows you a log of all the actions taken on this Page.
+- **More:**
+   - **Move:** This will Change the parent page of the currently selected Page (i.e: Newsroom). **DO NOT TOUCH THIS**
+   - **Copy:** This will duplicate the current page. **DO NOT TOUCH THIS**
+   - **Delete:** Complete delete the current page and all of its child pages(in this case: blogs). **DO NOT TOUCH THIS**
+   - **Unpublish:** This option unpublishes the Page and disallows users from accessing it on the live site, optionally disallowing access to child pages (in this case: blogs). Note: if access to child pages is not removed, they will become orphaned meaning that they can be accessed by users, but only through direct URL.
+   - **History:** This shows you a log of all the actions taken on this Page.
+   - **Translate this page:** This creates a version of this page (and optionally all its child pages) in a different language(locale) if it doesn't exist in that langauge yet.
+   - **Sync translated pages:** This will sync all the content on this page into another languages that had already been created to allow the editor manually make translations.
+- **Language:** This button allows you to select the language you would like to make edits for. By default this is English. If you select, say French, it will show you the content for the page in French and you can manually translate it here. 
 
 Below the title area and the toolbars defined above, you have a table showing the existing child pages. The columns are self explanatory but lets define them quickly:
 
