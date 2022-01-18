@@ -143,3 +143,5 @@ To quickly locate pages, articles or find information, use the search functional
 - You can filter the search results by content type i.e Page, Image, Document and Users. 
 - Different content types have different options for further filtering. Pages can be filtered by Page Type, whereas Images can be filtered by Tags.
 - Search results can be sorted by column simply by click on the column header
+
+.. image:: _static/search.png
